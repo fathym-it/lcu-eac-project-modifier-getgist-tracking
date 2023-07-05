@@ -3,7 +3,13 @@
     "Name": "@fathym-it/lcu-eac-project-modifier-getgist-tracking",
     "Description": "An LCU for installing GetGist tracking code on all project applications.",
     "Image": "https://www.fathym.com/assets/images/logo.png",
-    "PreviewImage": "https://www.fathym.com/assets/images/logo.png"
+    "PreviewImage": "https://www.fathym.com/assets/images/logo.png",
+    "Intents": [
+      "GetGist Tracking",
+      "Project",
+      "Modifier",
+      "Marketing"
+    ]
   },
   "Configurations": {
     "Tracking": {
