@@ -1,0 +1,22 @@
+{
+  "PROJECT_LOOKUP": {
+    "Order": 1,
+    "Prompts": [
+      {
+        "Type": "eac:projects|select",
+        "Message": "Choose the project to deploy the package to?",
+        "Arguments": {
+          "CreateText": "Create a project"
+        }
+      }
+    ]
+  },
+  "GETGIST_WORKSPACE_ID": {
+    "Order": 2,
+    "Prompts": [
+      {
+        "Message": "Enter the GetGist Workspace ID:"
+      }
+    ]
+  }
+}
