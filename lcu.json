@@ -12,7 +12,7 @@
     ]
   },
   "Configurations": {
-    "Tracking": {
+    "Track": {
       "Name": "GetGist Tracking",
       "Description": "The GetGist tracking code.",
       "Phases": [
