@@ -1,12 +1,14 @@
 {
   "Modifiers": {
     "{{PROJECT_LOOKUP}}-getgist": {
-      "Details":"{ \u0022Location\u0022: \u0022Head\u0022, \u0022ScriptID\u0022: \u0022gist-analytics\u0022, \u0022Script\u0022: \u0022(function(d,h,w){var gist=w.gist=w.gist||[];gist.methods=[\u0027trackPageView\u0027,\u0027identify\u0027,\u0027track\u0027,\u0027setAppId\u0027];gist.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);gist.push(e);return gist;}};gist.methods.forEach(function(c){gist[c]=gist.factory(c);});s=d.createElement(\u0027script\u0027),s.src=\u0027https://widget.getgist.com\u0027,s.async=!0,e=d.getElementsByTagName(h)[0],e.appendChild(s),s.addEventListener(\u0027load\u0027,function(e){},!1),gist.setAppId(\u0027{{GETGIST_WORKSPACE_ID}}\u0027),gist.trackPageView();if (window.LCU?.User?.Email) { gist.identify(window.LCU.User.Email); }})(document,\u0027head\u0027,window);\u0022 }",
-      "Enabled":true,
-      "Name":"GetGist",
-      "PathFilterRegex":".*index.html",
-      "Priority":9000,
-      "Type":"LCU.Runtime.Applications.Modifiers.ThirdPartyLibraryDFSModifierManager, LCU.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+      "Details":{
+        "Details":"{ \u0022Location\u0022: \u0022Head\u0022, \u0022ScriptID\u0022: \u0022gist-analytics\u0022, \u0022Script\u0022: \u0022(function(d,h,w){var gist=w.gist=w.gist||[];gist.methods=[\u0027trackPageView\u0027,\u0027identify\u0027,\u0027track\u0027,\u0027setAppId\u0027];gist.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);gist.push(e);return gist;}};gist.methods.forEach(function(c){gist[c]=gist.factory(c);});s=d.createElement(\u0027script\u0027),s.src=\u0027https://widget.getgist.com\u0027,s.async=!0,e=d.getElementsByTagName(h)[0],e.appendChild(s),s.addEventListener(\u0027load\u0027,function(e){},!1),gist.setAppId(\u0027{{GETGIST_WORKSPACE_ID}}\u0027),gist.trackPageView();if (window.LCU?.User?.Email) { gist.identify(window.LCU.User.Email); }})(document,\u0027head\u0027,window);\u0022 }",
+        "Enabled":true,
+        "Name":"GetGist",
+        "PathFilterRegex":".*index.html",
+        "Priority":9000,
+        "Type":"LCU.Runtime.Applications.Modifiers.ThirdPartyLibraryDFSModifierManager, LCU.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+      }
     }
   },
   "Projects": {
