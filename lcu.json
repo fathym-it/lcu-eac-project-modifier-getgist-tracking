@@ -1,7 +1,7 @@
 {
   "Package": {
-    "Name": "@fathym-it/lcu-eac-project-modifier-getgist-tracking",
-    "Description": "An LCU for installing GetGist tracking code on all project applications.",
+    "Name": "Install GetGist Tracking Code",
+    "Description": "Install GetGist tracking code to a project (and all child applications associated with that project).",
     "Image": "https://www.fathym.com/assets/images/logo.png",
     "PreviewImage": "https://www.fathym.com/assets/images/logo.png",
     "Intents": [
@@ -17,7 +17,7 @@
       "Description": "The GetGist tracking code.",
       "Phases": [
         {
-          "Name": "GetGist Tracking",
+          "Name": "Configuring GetGist Tracking",
           "Order": 1,
           "Asset": "track"
         }
